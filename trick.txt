@@ -1,0 +1,12 @@
+You must run fuslogvw.exe with administrator privileges.
+This tool is automatically installed with Visual Studio. To run the tool, use Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell with administrator credentials.
+At the command prompt, enter the following command:
+Console
+
+
+$ fuslogvw
+
+
+1. Check if you are referencing an assembly which in turn referencing an old version of unity. For example let's say you have an assembly called ServiceLocator.dll which needs an old version of Unity assembly, now when you reference the ServiceLocator you should provide it with the old version of Unity, and that makes the problem.
+2. May be the output folder where all projects build their assemblies, has an old version of unity.
+You can use FusLogVw to find out who is loading the old assemblies, just define a path for the log, and run your solution, then check (in FusLogvw) the first line where the Unity assembly is loaded, double click it and see the calling assembly, and here you go.
