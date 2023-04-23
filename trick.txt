@@ -16,3 +16,8 @@ You can use FusLogVw to find out who is loading the old assemblies, just define 
 branch 'master' set up to track 'origin/master'.
 
 git branch -u origin/master master
+
+
+https://www.grapecity.com/spreadnet/docs/v13/online-win/spwin-headermulti.html
+grapecity.com/spreadnet/docs/v13/online-win/spwin-headerlabel.html
+https://www.grapecity.com/spreadnet/docs/v13/online-win/FarPoint.Win.Spread~FarPoint.Win.Spread.SheetView~GetLastNonEmptyColumn.html

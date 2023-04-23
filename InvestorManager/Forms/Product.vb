@@ -51,6 +51,8 @@ Public Class Product
         End With
 
         spread = New Myspread
+        spread.Dock = DockStyle.Fill
+        Panel3.Controls.Add(spread)
 
         AddValToComboBox()
         AddHandler SearchBtn.Click, AddressOf SearchProcess
@@ -175,7 +177,7 @@ Public Class Product
 
                         spread.Dock = DockStyle.Fill
                         Panel3.Controls.Add(spread)
-                        spread.FpSpread1_Sheet1.DataSource = dataTable
+                        'spread.FpSpread1_Sheet1.DataSource = dataTable
 
 
                     End If
