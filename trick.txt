@@ -10,3 +10,9 @@ $ fuslogvw
 1. Check if you are referencing an assembly which in turn referencing an old version of unity. For example let's say you have an assembly called ServiceLocator.dll which needs an old version of Unity assembly, now when you reference the ServiceLocator you should provide it with the old version of Unity, and that makes the problem.
 2. May be the output folder where all projects build their assemblies, has an old version of unity.
 You can use FusLogVw to find out who is loading the old assemblies, just define a path for the log, and run your solution, then check (in FusLogvw) the first line where the Unity assembly is loaded, double click it and see the calling assembly, and here you go.
+
+
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+git branch -u origin/master master
