@@ -1,0 +1,3382 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FarPoint.Win.Spread.Design</name>
+    </assembly>
+    <members>
+        <member name="F:FarPoint.Win.Spread.Design.BorderEditor.cellranges">
+            ''
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.BorderEditor.#ctor">
+            ''
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.BorderEditor.btnNone_Click(System.Object,System.EventArgs)">
+            ''
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.BorderEditor.FpSpread1_CellClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+            ''
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.CellStylesUIViewControl.FakeNormalStyleName">
+            <summary>
+            Gets the cloned Normal style for styling the temp cells.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellStylesUIViewControl.GenerateCollection(FarPoint.Win.Spread.FpSpread,System.Boolean)">
+            <summary>
+            Generate the named style cells
+            </summary>
+            <param name="sourceSpread"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellStylesUIViewControl.CreateGroupTitleRow(System.Int32@,System.String)">
+            <summary>
+            Create group title row to show group category
+            </summary>
+            <param name="row"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellStylesUIViewControl.CreateGroupSeparatorRow(System.Int32@)">
+            <summary>
+            Create group separator row to show border line
+            </summary>
+            <param name="row"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellStylesUIViewControl.CreateEmptyRow(System.Int32)">
+            <summary>
+            Create temp row to separate cellStyle rows
+            </summary>
+            <param name="row"></param>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.CellStylesUIViewControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellStylesUIViewControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellStylesUIViewControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.NamedStyleCreateControl">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.NamedStyleCreateControl.#ctor(FarPoint.Win.Spread.FpSpread,System.String,System.Boolean)">
+            <summary>
+            Modifies a new named style on workbook of the specified <see cref="T:FarPoint.Win.Spread.FpSpread"/> instance.
+            </summary>
+            <param name="spread">The working instance of <see cref="T:FarPoint.Win.Spread.FpSpread"/> class.</param>
+            <param name="styleName">The name of style will be modified or duplicated.</param>
+            <param name="isDuplicated">A boolean value indicates whether the named style will be duplicated.</param>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.NamedStyleCreateControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.NamedStyleCreateControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.NamedStyleCreateControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.CellTypeDlgV3">
+            <summary>
+            Represents the Cell Type Dialog for Spread Designer.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.IsBarCodeDataValid(System.String,FarPoint.Win.Spread.CellType.BarCodeCellType)">
+            <summary>
+            check input data valid
+            </summary>
+            <param name="newText"> input data</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.Ct_barcode_ValueTextBox_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handler barcode value TextBox TextChanged event.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.Ct_barcode_FixLengthNumericUpDown_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handler barcode FixLength NumericUpDown ValueChanged event.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.Ct_barcode_CheckDigitCheckBox_CheckedChanged(System.Object,System.EventArgs)">
+             <summary>
+             Handle barcode check digit CheckBox Checked Changed event.
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+             <remarks></remarks>
+            
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.CopybarcodeDetailsDlgValue(FarPoint.Win.Spread.Design.BarcodeDetailsDlg,FarPoint.Win.Spread.Design.BarcodeDetailsDlg)">
+            <summary>
+            Copy barcodeDetailsDlg setting Value
+            </summary>
+            <param name="copyFromDlg"></param>
+            <param name="copyToDlg"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.Ct_barcode_DetailsButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler barcode details button click event.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.SetCellSize(FarPoint.Win.Spread.Cell)">
+            <summary>
+            Sets cell size corresponding the size of barcode size
+            </summary>
+            <param name="cell"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.TypeRadio_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler barcode type radion button click event
+            </summary>
+            <param name="sender"></param>
+            <param name="arg"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.Ct_barcode_TabGeneral_Enter(System.Object,System.EventArgs)">
+             <summary>
+            Handler ct_barcode_TabGeneral enter event
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+             <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.BarcodePreview">
+            <summary>
+            draw barcode preview
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.#ctor(FarPoint.Win.Spread.FpSpread)">
+            <summary>
+            Creates a new Cell Type dialog.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.#ctor">
+            <summary>
+            Creates a new Cell Type dialog.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.CellTypeDlgV3.CellTypeIndex">
+            <summary>
+            Gets or sets the cell type index.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.InitValues(FarPoint.Win.Spread.CellType.ICellType,System.Object)">
+            <summary>
+            Sets the initial values to the cell type dialog.
+            </summary>
+            <param name="celltype">Cell Type</param>
+            <param name="data">Data</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.SetInitValues(FarPoint.Win.Spread.CellType.ICellType,System.Object)">
+            <summary>
+            Sets the initial values to the cell type dialog.
+            </summary>
+            <param name="celltype">Cell Type</param>
+            <param name="data">Data</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.ApplyCellType(FarPoint.Win.Spread.CellType.ICellType,System.Boolean)">
+            <summary>
+            Applies the cell type in the cell type dialog.
+            </summary>
+            <param name="ct">Cell Type</param>
+            <param name="locked">Whether the cell is locked</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CellTypeDlgV3.ApplyData(System.Object)">
+            <summary>
+            Applies the data in the cell type dialog.
+            </summary>
+            <param name="data">Data</param>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.DropDownCalendar">
+            <summary>
+            Represents the drop-down calendar in the Spread Designer.
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.DropDownCalendar.CloseUp">
+            <summary>
+            Occurs when the user closes the drop-down calendar.
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.DropDownCalendar.ValueChanged">
+            <summary>
+            Occurs when the user changes the value in the drop-down calendar.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Creates a new drop-down calendar.
+            </summary>
+            <param name="x">X coordinate</param>
+            <param name="y">Y coordinate</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.GetDateSelected">
+            <summary>
+            Gets the date selected from the drop-down calendar.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.GetPreferredSize">
+            <summary>
+            Gets the maximum (preferred) size.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.GetSubEditorControl">
+            <summary>
+            Gets the subeditor control in the drop-down calendar.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.GetValue">
+            <summary>
+            Gets the value in the drop-down calendar.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.SetValue(System.Object)">
+            <summary>
+            Sets the value in the drop-down calendar.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Raises the KeyDown event.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DropDownCalendar.OnDeactivate(System.EventArgs)">
+            <summary>
+            Raises the Deactivate event.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.CustomDropCellType">
+            <summary>
+            Represents the custom drop cell type.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.CustomDropCellType.ValueChangedEventHandler">
+            <summary>
+            Occurs when the user changes the value of the custom drop cell type.
+            </summary>
+            <param name="sender">Object that fires the event</param>
+            <param name="e">Event data</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CustomDropCellType.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Creates a new custom drop cell type.
+            </summary>
+            <param name="x">X coordinate</param>
+            <param name="y">Y coordinate</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CustomDropCellType.SetNewLocation(System.Int32,System.Int32)">
+            <summary>
+            Sets the new location for the custom drop cell type.
+            </summary>
+            <param name="x">X coordinate</param>
+            <param name="y">Y coordinate</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CustomDropCellType.PaintCell(System.Drawing.Graphics,System.Drawing.Rectangle,FarPoint.Win.Spread.Appearance,System.Object,System.Boolean,System.Boolean,System.Single)">
+            <summary>
+            Paints the cell for the custom drop cell type.
+            </summary>
+            <param name="g">Graphics device</param>
+            <param name="r">Rectangle bounding the cell</param>
+            <param name="appearance">Appearance object with display settings</param>
+            <param name="value">Value in the cell</param>
+            <param name="isSelected">Whether the cell is selected</param>
+            <param name="isLocked">Whether the cell is locked</param>
+            <param name="zoomFactor">Zoom factor</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CustomDropCellType.StartEditing(System.EventArgs,System.Boolean,System.Boolean)">
+            <summary>
+            Occurs when the user starts edit mode in the cell.
+            </summary>
+            <param name="e">EventArgs object with event data</param>
+            <param name="selectAll">Whether all are selected</param>
+            <param name="autoClipboard">Whether to handle the shortcut keys for Clipboard actions</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CustomDropCellType.SetEditorValue(System.Object)">
+            <summary>
+            Sets the editor value.
+            </summary>
+            <param name="value">Object with value</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.CustomDropCellType.StopEditing">
+            <summary>
+            Occurs when the user stops edit mode in the cell.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.common.ApplyScSort(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,FarPoint.Win.Spread.SortInfo[])">
+            <summary>
+            Sort by Common logic
+            </summary>
+            <param name="spread"></param>
+            <param name="row"></param>
+            <param name="column"></param>
+            <param name="rowCount"></param>
+            <param name="columnCount"></param>
+            <param name="byRows"></param>
+            <param name="sortInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.common.SaveChartContextMenu(FarPoint.Win.Spread.FpSpread,System.Collections.Generic.Dictionary{System.String,System.Windows.Forms.ContextMenuStrip}@,System.Collections.Generic.Dictionary{System.String,System.String}@)">
+            <summary>
+            Save all of context menus of all charts of the spread to chartContextMenus Dictionary;
+            Save all of context menu names of all charts of the spread to chartContextMenuNames Dictionary;
+            </summary>
+            <param name="spread"></param>
+            <param name="chartContextMenus"></param>
+            <param name="chartContextMenuNames"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.common.RestoreChartContextMenu(FarPoint.Win.Spread.FpSpread,System.Collections.Generic.Dictionary{System.String,System.Windows.Forms.ContextMenuStrip},System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Restore all of context menus of all charts of the spread from saved in chartContextMenus Dictionary;
+            Restore all of context menu names of all charts of the spread from saved in chartContextMenuNames Dictionary;
+            </summary>
+            <param name="spread"></param>
+            <param name="chartContextMenus"></param>
+            <param name="chartContextMenuNames"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.common.RemoveChartContextMenuFromDesignerHost(FarPoint.Win.Spread.FpSpread)">
+             <summary>
+            Remove all of context menus of all charts of the spread from current DesignerHost if anyone of them is used by one Spread control. 
+             </summary>
+             <param name="spread"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.common.IsContextMenuUsedByMultipleSpread(System.ComponentModel.Design.IDesignerHost,System.Windows.Forms.ContextMenuStrip)">
+             <summary>
+            Check whether a context menu is used by multiple Spread Control. If yes, return true. 
+             </summary>
+             <param name="designerHost"></param>
+             <param name="contextMenu"></param>
+             <returns></returns>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.ExternalDialogs">
+            <summary>
+            Represents the dialogs that can be used external to Spread Designer.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.ExternalDialogs.SpreadSettingsEditor(FarPoint.Win.Spread.FpSpread,System.String,System.String)">
+            <summary>
+            Represents the Spread settings editor dialog for the specified FarPoint Spread.
+            </summary>
+            <param name="spread">FarPoint Spread</param>
+            <param name="helpFile">File name, including path if necessary, for the help file</param>
+            <param name="topic">Help topic within the help file</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.ExternalDialogs.BorderEditor(FarPoint.Win.Spread.FpSpread)">
+            <summary>
+            Represents the border editor dialog for the specified FarPoint Spread.
+            </summary>
+            <param name="spread">FarPoint Spread</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.ExternalDialogs.CellTypeEditor(FarPoint.Win.Spread.FpSpread)">
+            <summary>
+            Represents the cell type editor dialog for the specified FarPoint Spread.
+            </summary>
+            <param name="spread">FarPoint Spread</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.ExternalDialogs.CellTypeEditor(FarPoint.Win.Spread.FpSpread,FarPoint.Win.Spread.Design.DesignerMain.CellTypeEnum)">
+            <summary>
+            Represents the cell type editor dialog for the specified FarPoint Spread.
+            </summary>
+            <param name="spread">FarPoint Spread</param>
+            <param name="DefaultCellType">Celltype enum to load if celltype of select cell is nothing </param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.ContextMenuExtension.GetMenu(System.Windows.Forms.ContextMenuStrip,System.String)">
+            <summary>
+            Gets the menu or submenu of contextmenu.
+            </summary>
+            <param name="contextMenu">The context menu.</param>
+            <param name="name">The name.</param>
+            <exception cref="T:System.NullReferenceException"></exception>
+            <returns></returns>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.DesignerMain.GridLineViewType">
+            <summary>
+            Grid line view type
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.DesignerMain.GridLineViewType.Both">
+            <summary>
+            Both grid line
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.DesignerMain.GridLineViewType.Vertical">
+            <summary>
+            Vertical grid line
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.DesignerMain.GridLineViewType.Horizontal">
+            <summary>
+            Horizontal grid line
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.DesignerMain.shapeRenderWorksheet">
+            <summary>
+            A temp Worksheet is used for Create/Paint new shapes
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UpdateDrawingObjectSettings(GrapeCity.Spreadsheet.Drawing.IShapeRange)">
+            <summary>
+            Update settings for selected drawing objects on RibbonBar
+            </summary>
+            <param name="shapeRange"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UpdateDrawingObjectSizeSettings(GrapeCity.Spreadsheet.Drawing.IShapeRange)">
+            <summary>
+            Update size settings for selected drawing objects (shape, slicer) on RibbonBar
+            </summary>
+            <param name="selShapes"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UpdateSlicerSettings(GrapeCity.Spreadsheet.Drawing.IShapeRange)">
+            <summary>
+            Update settings (buttons, caption) for selected slicers on RibbonBar
+            </summary>
+            <param name="selSlicers"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UpdateHomeTab(System.Nullable{System.Boolean})">
+            <summary>
+            Update Home tab by selected objects
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UpdateShapeTab(System.Boolean,System.Nullable{System.Boolean})">
+            <summary>
+            Check WorksheetDrawing.SelectedDrawingObjects to update state of Format tab, which uses for new shape.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UpdateSlicerTab">
+            <summary>
+            Check WorksheetDrawing.SelectedDrawingObjects to update state of Slicer tab, which uses for new shape.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.GetDrawingObjectsByType(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Boolean)">
+            <summary>
+            Get the drawwing objects by type (shape/slicer)
+            </summary>
+            <param name="drawingObjects"></param>
+            <param name="isShape"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.FormatTab_EnableAlignItemState(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Update align items of Format/Slicer tab
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="isShape">Indicate to update state for Format or Slicer tab</param>
+            <param name="force"></param>
+            <param name="enable"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.SetTextFontByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.String,System.Double,System.Object,System.Object,GrapeCity.Spreadsheet.UnderlineStyle,System.Drawing.Color,System.Boolean)">
+            <summary>
+            Set Text font by shape range
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="fontName"></param>
+            <param name="fontSize"></param>
+            <param name="idBold"></param>
+            <param name="isItalic"></param>
+            <param name="foreColor"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.IsInFilteModeByRange(GrapeCity.Spreadsheet.IWorksheet,GrapeCity.Spreadsheet.Reference)">
+            <summary>
+            Check if in filter mode
+            </summary>
+            <param name="worksheet"></param>
+            <param name="range"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.GetActiveTable(GrapeCity.Spreadsheet.IWorksheet)">
+            <summary>
+            Get the active table
+            </summary>
+            <param name="worksheet"></param>   
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UpdateSpreadWrapperProps(FarPoint.Win.Spread.FpSpread)">
+            <summary>
+            Update SpreadWrapper properties from a source FpSpread
+            </summary>
+            <param name="sourceSpread"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.GetColorFromGCColor(FarPoint.Win.Spread.SheetView,GrapeCity.Spreadsheet.Color)">
+            <summary>
+            Get System.Drawing.Color from GrapeCity.Spreadsheet.Color
+            </summary>
+            <param name="sheetTemp"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.DrawImagePreviewSlicerRect(System.Drawing.Graphics,FarPoint.Win.Spread.SheetView,System.Drawing.Rectangle,System.Drawing.Color,GrapeCity.Spreadsheet.Fill,System.Drawing.Color,System.Boolean)">
+            <summary>
+            Draw the slicer preview rectangle.
+            </summary>
+            <param name="gr"></param>
+            <param name="rect"></param>
+            <param name="borderColor"></param>
+            <param name="fillFormat"></param>
+            <param name="textColor"></param>
+            <param name="isHeaderRow"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.DrawImagePreviewSlicerStyle(System.Drawing.Bitmap,FarPoint.Win.Spread.SheetView,GrapeCity.Spreadsheet.TableStyle)">
+            <summary>
+            Drawing the slicer preview image.
+            </summary>
+            <param name="bitmap"></param>
+            <param name="sheetTemp"></param>
+            <param name="tableStyle"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.CreateSlicerStylePreview(System.Boolean)">
+            <summary>
+            Create the prview images for present slicers
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.GetSelectionRowHeight(System.Boolean)">
+            <summary>
+            Function to check if there are selections based on rowheight/columnwidth   
+            </summary>
+            <param name="isRow">if set to <c>true</c> [is row].</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.IsRowSelected(FarPoint.Win.Spread.SheetView)">
+            <summary>
+            Return false if there was a rows selection
+            </summary>
+            <param name="sHView"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.IsColumnSelected(FarPoint.Win.Spread.SheetView)">
+            <summary>
+            Returns true if there was a columns selection
+            </summary>
+            <param name="sHView"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.Group">
+            <summary>
+            This method will be called whenther user click buton group on toolbar
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.UnGroup">
+            <summary>
+            This method will be called whenther user click button group on tool bar.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ExpandColumnGroup(FarPoint.Win.Spread.RangeGroupInfo)">
+            <summary>
+            Expands a column group by group infor
+            </summary>
+            <param name="grpInfo"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.CollapseRowGroup(FarPoint.Win.Spread.RangeGroupInfo)">
+            <summary>
+            Collapse group.
+            </summary>
+            <param name="grpInfo"></param>
+            <remarks></remarks>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.DesignerMain.IsShowPropertyGridValue">
+            <summary>
+            Get or set visible status of PropertyGrid panel
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.DesignerMain.IsResizedShowPropertyGrid">
+            <summary>
+            Get or set visible status of PropertyGrid panel with current size
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.DesignerMain.IsShowPropertyGrid">
+            <summary>
+            Determine current PropertyGrid panel visible status
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.HideToolTips">
+            <summary>
+            Hides the tool tips.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.InitializeNoneDesignerGenerated">
+            <summary>
+            Resolve error on Windows Forms Designer page.
+            DO adding the custom code here which doesn't support by designer generated code.
+            INSTEAD of adding to InitializeComponent() directly.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.#ctor(System.Object,System.Object)">
+             <summary>
+            Constructor for the calling control to use.
+            The designer object will be either a System.Windows.Forms.Design.ControlDesigner
+            or a System.Web.UI.Design.ControlDesigner.
+             </summary>
+             <param name="control"></param>
+             <param name="designer"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>
+            Process dialog key to invoke Form_KeyDown because based control (C1RibbonForm) doesn't fire KeyDown to child.
+            </summary>
+            <param name="keyData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.RibbonColorPickerOverwriteColors(C1.Win.Ribbon.RibbonColorPickerItem)">
+            <summary>
+            Overwrite color items of RibbonColorPicker according to Spread theme colors if palette is Office.
+            </summary>
+            <param name="ribbonColorPicker"></param>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.DesignerMain.PrintEvent">
+            <summary>
+             Occurs when printing.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.DesignerMain.SaveEvent">
+            <summary>
+            Occurs when saving the file.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.DesignerMain.OpenEvent">
+            <summary>
+            Occurs when opening the file.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.InitGradientFill(GrapeCity.Spreadsheet.Drawing.IFillFormat,System.Boolean)">
+            <summary>
+            Process filling image for Gradient item (tab: Format -> Shape Styles -> Shape Fill -> Gradient) 
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.FormatShapes_GradientFillByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Int32,System.Boolean)">
+            <summary>
+            Fill gradient of shape range (ShapeGroup must fill special than shape)
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="index"></param>
+            <param name="isLightVariations"></param>
+            <param name="colorType"></param>
+            <param name="schemeTheme"></param>
+            <param name="argBColor"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.FormatShapes_GradientNoFillByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Boolean)">
+            <summary>
+            Update Shape/Text NoGradient fill for shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="colorType"></param>
+            <param name="schemeTheme"></param>
+            <param name="argBColor"></param>
+            <param name="isText"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.FormatShapes_GradientNoFill(GrapeCity.Spreadsheet.Drawing.IFillFormat,GrapeCity.Spreadsheet.Drawing.IFillFormat,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="refFillFormat"></param>
+            <param name="toFillFormat"></param>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.DesignerMain.SelectedShapeRange">
+            <summary>
+            Gets a <see cref="T:GrapeCity.Spreadsheet.Drawing.IShapeRange"/> object that represents the selected shapes.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.DesignerMain.IsContainsSelectedDrawingObjects">
+            <summary>
+            Gets a value indicating there is selected drawing object.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.TextWordartStyles_Clear(GrapeCity.Spreadsheet.Drawing.ITextRange)">
+            <summary>
+            Clear the wordart style of text.
+            </summary>
+            <param name="textRange"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeTextStyles_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process styling preset shape actions (tab: Format -> WordArt Styles -> Quick Preset 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.InitTextWordartStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeStyles_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process styling preset shape actions (tab: Format -> Shape Styles -> Quick Preset 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeStylesFill_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process filling shape actions (tab: Format -> Shape Styles -> Shape Fill)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeStylesOutline_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process outline shape actions (tab: Format -> Shape Styles -> Shape Outline)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeStylesEffects_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process outline shape actions (tab: Format -> Shape Styles -> Shape Effects)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.AttachEvents_RibbonMenuItems(C1.Win.Ribbon.RibbonMenu,System.EventHandler,System.Boolean)">
+            <summary>
+            Attach/Detach all RibbonMenu items with an event handler
+            </summary>
+            <param name="ribbonMenu"></param>
+            <param name="eventHandler"></param>
+            <param name="isAttached"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ChangeRibbonButtonImage(C1.Win.Ribbon.RibbonGalleryItem,System.Drawing.Image)">
+            <summary>
+            Change Ribbon button image prevent the thread cross access issue.
+            </summary>
+            <param name="button"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.WordArtStylesTextFill_PictureByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.String)">
+            <summary>
+            Change TextFill user picture by shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="argb"></param>
+            <param name="isNoColor"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.OutlineStyle_ChangeWeightDashByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Double,GrapeCity.Drawing.DashStyle,System.Boolean,System.Boolean)">
+            <summary>
+            Change TextOutline weight/dash by shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="weight"></param>
+            <param name="dashStyle"></param>
+            <param name="isWeight"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.SetShapeOutline_ShapeRangeForeColorByTheme(C1.Win.Ribbon.RibbonColorPickerItem,GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Boolean)">
+            <summary>
+            Change TextOutline by shapeRange
+            </summary>
+            <param name="ribbonColorPickerItem"></param>
+            <param name="shapeRange"></param>
+            <param name="isText"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.SetShadowFormatByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Int32,System.Boolean)">
+            <summary>
+            Change ShadowEffect by shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="index"></param>
+            <param name="isText"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.SetReflectionEffectFormatByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,GrapeCity.Spreadsheet.Drawing.ReflectionType,System.Boolean)">
+            <summary>
+            Change ReflectionEffect by shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="reflectionType"></param>
+            <param name="isText"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.SetShapeSoftEdgesEffectByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,GrapeCity.Spreadsheet.Drawing.SoftEdgeType)">
+            <summary>
+            Change SoftEdge effect by shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="softEdgeType"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.SetTextGlowEffectFormatByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,GrapeCity.Core.SchemeThemeColors,System.Double)">
+            <summary>
+            Change Text GlowEffect by shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="schemeThemeColors"></param>
+            <param name="radius"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.SetGlowEffectFormatByShapeRange(GrapeCity.Spreadsheet.Drawing.IShapeRange,System.Drawing.Color,System.Double,System.Double,System.Boolean,System.Boolean)">
+            <summary>
+            Change Text GlowEffect by shapeRange
+            </summary>
+            <param name="shapeRange"></param>
+            <param name="glowColor"></param>
+            <param name="transparency"></param>
+            <param name="radius"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeTextFill_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process formatting text-fill for shape (tab: Format -> WordArt Styles -> Text Fill)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeTextOutline_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process formatting text-outline for shape (tab: Format -> WordArt Styles -> Text Outline)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.AttachEvents_RibbonSplitItems(C1.Win.Ribbon.RibbonSplitButton,System.EventHandler,System.Boolean)">
+            <summary>
+            Attach/Detach all RibbonSplit items with an event handler
+            </summary>
+            <param name="splItem"></param>
+            <param name="eventHandler"></param>
+            <param name="isAttached"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.AttachEvents_RibbonItem(C1.Win.Ribbon.RibbonItem,System.EventHandler,System.Boolean)">
+            <summary>
+            Attach/Detach all Ribbon items with an event handler
+            </summary>
+            <param name="ribItem"></param>
+            <param name="eventHandler"></param>
+            <param name="isAttached"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.btnFormat_Arrange_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process click on Arrange buttons of Format or Slicer tab
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShowHideGridLine(FarPoint.Win.Spread.Design.DesignerMain.GridLineViewType,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <param name="isShow"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.ShapeTextEffects_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process formatting text-effects for shape (tab: Format -> WordArt Styles -> Text Effects)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.GetDialogPicture">
+            <summary>
+            Shows OpenFileDialog for choosing image and returns the file path
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.GetDialogTheme">
+            <summary>
+            Shows OpenFileDialog for choosing theme file and returns the file path
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.btnFormat_EditShape_Click(System.Object,System.EventArgs)">
+            <summary>
+            Process editing shape (tab: Format -> Insert Shapes -> Edit Shape)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.AddEnhancedCameraShape(FarPoint.Win.Spread.SheetView,FarPoint.Win.Spread.Model.CellRange)">
+            <summary>
+            Add new piture with formula for EnhancedShapeEngine feature.
+            </summary>
+            <param name="formulaSheetView"></param>
+            <param name="formulaRange"></param>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.DesignerMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.DesignerMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - DO NOT modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.ResourceStringHelper">
+            <summary>
+            get string from resource
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.ResourceStringHelper.GetString(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.AltKeyMode.None">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.AltKeyMode.Ribbon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.AltKeyMode.Tab">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.AltKeyMode.DropDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.AltKeyMode.Panel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.PrintOption">
+            <summary>
+            The option to print.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.FormulaBar.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FormulaBar.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FormulaBar.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.FpSpreadDesigner">
+            <summary>
+            Component that supports invoking Designer for a particular FpSpread object at runtime.
+            </summary>
+            <remarks>The FpSpreadDesigner component requires a license for Spread.NET Professional.</remarks>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.FpSpreadDesigner.PrintEvent">
+            <summary>
+            Occurs when printing.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.FpSpreadDesigner.SaveEvent">
+            <summary>
+            Occurs when saving the file.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.FpSpreadDesigner.OpenEvent">
+            <summary>
+            Occurs when opening the file.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpSpreadDesigner.Show(FarPoint.Win.Spread.FpSpread)">
+            <summary>
+            Display SpreadDesigner for the specific FpSpread control.
+            </summary>
+            <param name="spread">FpSpread object</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpSpreadDesigner.Show(FarPoint.Win.Spread.FpSpread,System.Windows.Forms.IWin32Window)">
+            <summary>
+            Display SpreadDesigner for the specific FpSpread control.
+            </summary>
+            <param name="spread">FpSpread object</param>
+            <param name="owner">Any object that implements System.Windows.Forms.IWin32Window that represents the top-level window that will own the SpreadDesigner form</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpSpreadDesigner.ShowDialog(FarPoint.Win.Spread.FpSpread)">
+            <summary>
+            Display SpreadDesigner form as a modal dialog box for the specific FpSpread control.
+            </summary>
+            <param name="spread">FpSpread object</param>
+            <returns>One of the System.Windows.Forms.DialogResult values</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpSpreadDesigner.ShowDialog(FarPoint.Win.Spread.FpSpread,System.Windows.Forms.IWin32Window)">
+            <summary>
+             Display SpreadDesigner form as a modal dialog box for the specific FpSpread control.
+            </summary>
+            <param name="spread">FpSpread object</param>
+            <param name="owner">Any object that implements System.Windows.Forms.IWin32Window that represents the top-level window that will own the SpreadDesigner form</param>
+            <returns>One of the System.Windows.Forms.DialogResult values</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpSpreadDesigner.#ctor">
+            <summary>
+            Initializes a new instance of the FpSpreadDesigner component.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.SpreadCellDescriptionProvider">
+            <summary>
+            The primary purpose of SpreadCellDescriptionProvider class is: dynamic add Editor attribute for Text property
+            of FarPoint.Win.Spread.Cell class in design time. Supports multiline string of Text property in property grid of header editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.SpreadCellDescriptionProvider.SpreadCellTextPropertyDescriptor">
+            <summary>
+            A custom PropertyDescriptor for provide editor to Text property of Cell class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.MarginCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.MarginCollection"/> class.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginCollection.MarginList">
+            <summary>
+            Gets the margin list.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.MarginCollection.FindMarginByID(System.Int32)">
+            <summary>
+            Finds the margin by ID.
+            </summary>
+            <param name="ID">The ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.MarginCollection.Add(FarPoint.Win.Spread.Design.MarginInfo)">
+            <summary>
+            Adds the specified mi.
+            </summary>
+            <param name="mi">The mi.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.MarginCollection.UpdateMargin(System.Int32)">
+            <summary>
+            Updates the margin.
+            </summary>
+            <param name="sheetID">The sheet ID.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.MarginInfo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.MarginInfo"/> class.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginInfo.Top">
+            <summary>
+            Gets or sets the top.
+            </summary>
+            <value>
+            The top.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginInfo.Bottom">
+            <summary>
+            Gets or sets the bottom.
+            </summary>
+            <value>
+            The bottom.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginInfo.Left">
+            <summary>
+            Gets or sets the left.
+            </summary>
+            <value>
+            The left.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginInfo.Right">
+            <summary>
+            Gets or sets the right.
+            </summary>
+            <value>
+            The right.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginInfo.Header">
+            <summary>
+            Gets or sets the header.
+            </summary>
+            <value>
+            The header.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginInfo.Footer">
+            <summary>
+            Gets or sets the footer.
+            </summary>
+            <value>
+            The footer.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.MarginInfo.SheetID">
+            <summary>
+            Gets or sets the sheet ID.
+            </summary>
+            <value>
+            The sheet ID.
+            </value>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.AccessKeyBack">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.AccessKeyBackDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.AllChanges">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.AllChangesHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Apply">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ApplyAndExit">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ApplyAndExitDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ApplyAndExitHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ApplyDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ApplyHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.appmenulight">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.BallMenu">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.BallMenus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.BallMenus1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.BallMenus2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.BallMenus2j">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.BallMenus2jw1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnCancel">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnCancel_Disabled">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnCancel1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnEnter">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnEnter_Disalbed">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnEnter1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnInsert">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.btnInsert1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.close">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Color">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ColorPickerHeader">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.copy">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Cut">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.DataChanges">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.DataChangesHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ExcelClose">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ExcelCloseDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ExcelMax">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ExcelMaxDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ExcelMin">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ExcelMinDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ExcelNormal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.FormulaButtons">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.fplogo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.fplogoSmal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glAccentBorderCallout1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glAccentBorderCallout2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glAccentBorderCallout3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glAccentCallout1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glAccentCallout2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glAccentCallout3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glArc">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBentArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBentConnector3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBentConnector3HeadEndTailEnd">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBentConnector3TailEnd">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBentUpArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBevel">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBlockArc">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBorderCallout1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBorderCallout2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBorderCallout3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBracePair">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glBracketPair">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCallout1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCallout2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCallout3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCan">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glChevron">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glChord">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCircularArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCloud">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCloudCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCorner">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCube">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCurvedDownArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCurvedLeftArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCurvedRightArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glCurvedUpArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDecagon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDiagStripe">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDiamond">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDiamond1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDodecagon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDonut">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDoubleWave">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDownArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glDownArrowCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glEllipse">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glEllipseRibbon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glEllipseRibbon2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartAlternateProcess">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartCollate">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartConnector">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartDecision">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartDelay">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartDisplay">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartDocument">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartExtract">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartInputOutput">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartInternalStorage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartMagneticDisk">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartMagneticDrum">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartMagneticTape">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartManualInput">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartManualOperation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartMerge">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartMultidocument">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartOffpageConnector">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartOnlineStorage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartOr">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartPredefinedProcess">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartPreparation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartProcess">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartPunchedCard">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartPunchedTape">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartSort">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartSummingJunction">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFlowChartTerminator">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFoldedCorner">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glFrame">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glHalfFrame">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glHeart">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glHeptagon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glHexagon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glHomePlate">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glHorizontalScroll">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glIrregularSeal1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glIrregularSeal2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftArrowCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftBrace">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftBracket">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftRightArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftRightArrowCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftRightUpArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLeftUpArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLightningBolt">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glLine">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glMathDivide">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glMathEqual">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glMathMinus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glMathMultiply">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glMathNotEqual">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glMathPlus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glMoon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glNoSmoking">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glNotchedRightArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glOctagon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glParallelogram">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glPentagon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glPie">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glPlaque">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glPlus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glQuadArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glQuadArrowCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRibbon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRibbon2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRightArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRightArrowCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRightBrace">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRightBracket">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRound1Rect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRound2DiagRect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRound2SameRect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRoundRect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glRtTriangle">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glSmileyFace">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glSnip1Rect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glSnip2DiagRect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glSnip2SameRect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glSnipRoundRect">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar10">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar12">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar32">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStar8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStraightConnector1HeadEndTailEnd">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStraightConnector1TailEnd">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glStripedRightArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glSun">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glTeardrop">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glTrapezoid">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glTriangle">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glUpArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glUpArrowCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glUpDownArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glUturnArrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glVerticalScroll">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glWave">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glWedgeEllipseCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glWedgeRectCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.glWedgeRoundRectCallout">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.help">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.helphover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.historyhover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Hover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Lable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.max">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.menuClose">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.menuCloseHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.min">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.New">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.NewHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.normal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Open">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.OpenHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.paste">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.preview">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.previewHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Print">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.PrintDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.PrintHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.PrintPDF">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.PrintPDFHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.PrintPreview">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.PrintPreviewHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.PrintSubHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.resize">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Revert">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.RevertDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.RevertHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ribbonStartMenu">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.ribbonStartMenu2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.Save">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.SaveAs">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.SaveAsHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.SaveHover">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.SpreadIcon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.StartMenu">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.StartMenuj">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.subarrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableDeleteColumn">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableDeleteColumnDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableDeleteRow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableDeleteRowDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertColumnLeft">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertColumnLeftDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertColumnRight">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertColumnRightDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertRowAbove">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertRowAboveDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertRowBelow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableInsertRowBelowDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TableTotalRow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TwoAccessKeyBack">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.TwoAccessKeyBackDisable">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.vista_close">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.vista_max">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.vista_min">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Properties.Resources.vista_normal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:FarPoint.Win.Spread.Design.Properties.Resources.btnCellStylesNewCellStyle" -->
+        <member name="T:FarPoint.Win.Spread.Design.SaveArgs">
+            <summary>
+            Represents information about event save to file.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.SaveArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether the event was cancel.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.OpenArgs">
+            <summary>
+            Represents information about event open file.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.OpenArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether the event was cancel.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.PrintArgs">
+            <summary>
+            Represents information about event print.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.PrintArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether the event was cancel.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.PrintArgs.PrintOption">
+            <summary>
+            Get information option to print.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.ColorEventArgs">
+            <summary>
+            Represents information about event color.
+            </summary>
+            <seealso cref="T:System.EventArgs" />
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.ColorEventArgs._color">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.ColorEventArgs.#ctor(System.Drawing.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.ColorEventArgs"/> class.
+            </summary>
+            <param name="color">The color.</param>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.ColorEventArgs.Color">
+            <summary>
+            Gets or sets the color.
+            </summary>
+            <value>
+            The color.
+            </value>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.ArrowKeyPlace">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.ArrowKeyPlace.Main">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.ArrowKeyPlace.Sub">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.ArrowKeyPlace.History">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.ArrowKeyPlace.Other">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.FormMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.FormMode.Normal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.FormMode.Button">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StartMenuForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.AltKeyModeChanged">
+            <summary>
+            Occurs when [alt key mode changed].
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.StartMenuForm"/> class.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StartMenuForm.HistoryClickedEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="!:FarPoint.Win.Ribbon.StartMenuForm.HistoryEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StartMenuForm.SubClickedEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="!:FarPoint.Win.Ribbon.StartMenuForm.SubMenuEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StartMenuForm.StartMenuImageChangedEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="!:FarPoint.Win.Ribbon.StartMenuForm.StartMenuImageChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnStartMenuShowing">
+            <summary>
+            Occurs when [on start menu showing].
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnStartMenuButtonClick">
+            <summary>
+            Occurs when [on start menu button click].
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnMainItemClicked">
+            <summary>
+            Occurs when [on main item clicked].
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnCloseButtonClicked">
+            <summary>
+            Occurs when [on close button clicked].
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnAboutButtonClicked">
+            <summary>
+            Occurs when [on about button clicked].
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnSubItemClicked">
+            <summary>
+            Occurs when [on sub item clicked].
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnHistoryItemClicked">
+            <summary>
+            Occurs when [on history item clicked].
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.StartMenuForm.OnStartMenuImageChanged">
+            <summary>
+            Occurs when [on start menu image changed].
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StartMenuForm.HistoryEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.StartMenuForm.HistoryEventArgs.path">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StartMenuForm.StartMenuImageChangedEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.StartMenuForm.StartMenuImageChangedEventArgs.ImageIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.StartMenuImageChangedEventArgs.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.StartMenuForm.StartMenuImageChangedEventArgs"/> class.
+            </summary>
+            <param name="index">The index.</param>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StartMenuForm.SubMenuEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.StartMenuForm.SubMenuEventArgs.MainItemText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.StartMenuForm.SubMenuEventArgs.SubItemText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>
+            Scales a control's location, size, padding and margin.
+            </summary>
+            <param name="factor"></param>
+            <param name="specified"></param>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.FormMode">
+            <summary>
+            Gets or sets the form mode.
+            </summary>
+            <value>
+            The form mode.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.AlyKey">
+            <summary>
+            Gets or sets the aly key.
+            </summary>
+            <value>
+            The aly key.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.DropDownVisible">
+            <summary>
+            Gets a value indicating whether [drop down visible].
+            </summary>
+            <value>
+              <c>true</c> if [drop down visible]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.SetButtonImage(System.Int32)">
+            <summary>
+            Sets the button image.
+            </summary>
+            <param name="index">The index.</param>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.AltKeyMode">
+            <summary>
+            Gets or sets the alt key mode.
+            </summary>
+            <value>
+            The alt key mode.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.ToolTips">
+            <summary>
+            Gets the Tooltips form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.MainItems">
+            <summary>
+            Gets or sets the main items.
+            </summary>
+            <value>
+            The main items.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.HistoryItems">
+            <summary>
+            Gets or sets the history items.
+            </summary>
+            <value>
+            The history items.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.SelectedIndex">
+            <summary>
+            Gets the index of the selected.
+            </summary>
+            <value>
+            The index of the selected.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.StartMenuForm.HistorySelectedIndex">
+            <summary>
+            Gets the index of the history selected.
+            </summary>
+            <value>
+            The index of the history selected.
+            </value>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.OperateAccessKey(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Operates the access key.
+            </summary>
+            <param name="e">The <see cref="T:System.Windows.Forms.KeyEventArgs"/> instance containing the event data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.CloseDropDown">
+            <summary>
+            Closes the drop down.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.AddHistory(System.String)">
+            <summary>
+            Adds the history.
+            </summary>
+            <param name="path">The path.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.UpdateHistory">
+            <summary>
+            Updates the history.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.SaveHistory">
+            <summary>
+            Saves the history.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.LoadHistory">
+            <summary>
+            Loads the history.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.SetItemState(System.String,System.Boolean)">
+            <summary>
+            Sets the state of the item.
+            </summary>
+            <param name="Text">The text.</param>
+            <param name="value">if set to <c>true</c> [value].</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.GetSubItemState(System.String,System.String)">
+            <summary>
+            Gets the state of the sub item.
+            </summary>
+            <param name="MainText">The main text.</param>
+            <param name="SubText">The sub text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.SetSubItemState(System.String,System.String,System.Boolean)">
+            <summary>
+            Sets the state of the sub item.
+            </summary>
+            <param name="MainText">The main text.</param>
+            <param name="SubText">The sub text.</param>
+            <param name="value">if set to <c>true</c> [value].</param>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.StartMenuForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StartMenuForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.Item">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.Text">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.Enable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.HasSep">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.ImageHover">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.ImageDisable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.subItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.subTitle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.AltKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.Item.AltKeyOffset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.Item"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.Item"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="text">The text.</param>
+            <param name="altKey">The alt key.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.Item"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="imgDisable">The img disable.</param>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.Item"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="imgDisable">The img disable.</param>
+            <param name="text">The text.</param>
+            <param name="altKey">The alt key.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.String,System.Boolean,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.Item"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="imgDisable">The img disable.</param>
+            <param name="text">The text.</param>
+            <param name="hasSep">if set to <c>true</c> [has sep].</param>
+            <param name="altKey">The alt key.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.String,System.Collections.Generic.List{FarPoint.Win.Spread.Design.SubItem},System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.Item"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="imgDisable">The img disable.</param>
+            <param name="text">The text.</param>
+            <param name="subItems">The sub items.</param>
+            <param name="subTitle">The sub title.</param>
+            <param name="altKey">The alt key.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.String,System.Collections.Generic.List{FarPoint.Win.Spread.Design.SubItem},System.String,System.Boolean,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.Item"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="imgDisable">The img disable.</param>
+            <param name="text">The text.</param>
+            <param name="subItems">The sub items.</param>
+            <param name="subTitle">The sub title.</param>
+            <param name="hasSep">if set to <c>true</c> [has sep].</param>
+            <param name="altKey">The alt key.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.Item.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Item.SubTitle">
+            <summary>
+            Gets or sets the sub title.
+            </summary>
+            <value>
+            The sub title.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.Item.SubItems">
+            <summary>
+            Gets or sets the sub items.
+            </summary>
+            <value>
+            The sub items.
+            </value>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.SubItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.Enable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.ImageHover">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.ImageDisable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.Text">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.AltKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.SubItem.AltKeyOffset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.SubItem.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.SubItem"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="text">The text.</param>
+            <param name="altKey">The alt key.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.SubItem.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.SubItem"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="imgDisable">The img disable.</param>
+            <param name="text">The text.</param>
+            <param name="altKey">The alt key.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.SubItem.#ctor(System.Int32,System.Drawing.Image,System.Drawing.Image,System.Drawing.Image,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.SubItem"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="img">The img.</param>
+            <param name="imgHover">The img hover.</param>
+            <param name="imgDisable">The img disable.</param>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.SubItem.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.HistoryItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.HistoryItem.Text">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.HistoryItem.ShowText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.HistoryItem.ImageHover">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.HistoryItem.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.HistoryItem"/> class.
+            </summary>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.HistoryItem.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.HistoryItem"/> class.
+            </summary>
+            <param name="text">The text.</param>
+            <param name="filename">The filename.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.HistoryItem.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TabStripDlg.ScaleCore(System.Single,System.Single)">
+            <summary>
+            Save height of the form after performing scale.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TextRotationControl.Title">
+            <summary>
+            Setter and Getter group box text.
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TextRotationControl.DegreeText">
+            <summary>
+            Setter and Getter degrees lable text.
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TextRotationControl.RotationText">
+            <summary>
+            Setter and Getter clock text.
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TextRotationControl.Value">
+            <summary>
+            Getter clock value.
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TextRotationControl.Clock_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Clock value changed hanlder.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TextRotationControl.numericUpDown_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            NumericUpdown value changed handelr.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TextRotationControl.numericUpDown_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Numeric key up handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <remarks></remarks>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.TooltipsForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TooltipsForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Win.Spread.Design.TooltipsForm"/> class.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TooltipsForm.Title">
+            <summary>
+            Gets or sets the title.
+            </summary>
+            <value>
+            The title.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TooltipsForm.ToolTipText">
+            <summary>
+            Gets or sets the tool tip text.
+            </summary>
+            <value>
+            The tool tip text.
+            </value>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TooltipsForm.ToolTipImage">
+            <summary>
+            Gets or sets the tool tip image.
+            </summary>
+            <value>
+            The tool tip image.
+            </value>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TooltipsForm.ShowToolTip">
+            <summary>
+            Shows the tool tip.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Win.Spread.Design.TooltipsForm.CreateParams">
+            <summary>
+            Gets the create params.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TooltipsForm.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Forms.PaintEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TooltipsForm.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            WNDs the proc.
+            </summary>
+            <param name="m">The m.</param>
+        </member>
+        <member name="F:FarPoint.Win.Spread.Design.TooltipsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TooltipsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.TooltipsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpColumnConfig.#ctor">
+            <summary>
+            Initializes a new instance of the FpColumnConfig class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpColumnConfig.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpColumnConfig.ModifyColumnsName(System.Int32,System.Boolean)">
+            <summary>
+            Change columns name when insert or delete a column.
+            </summary>
+            <param name="index">The index of begin column of maybe change columns name</param>
+            <param name="isInsert">If set to true, is insert column.</param>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpColumnConfig.FpSpread1_EditChange(System.Object,FarPoint.Win.Spread.EditorNotifyEventArgs)">
+            <summary>
+            Handles the EditChange event of the FpSpread1 control. FpSpread1 is config Spread of IDE Spread.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpColumnConfig.FpSpread1_ButtonClicked(System.Object,FarPoint.Win.Spread.EditorNotifyEventArgs)">
+            <summary>
+            Handles the ButtonClicked event of the FpSpread1 control for set visible property of the columns.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpDataSourceConfig.#ctor">
+            <summary>
+            Initializes a new instance of the FpDataSourceConfig class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpDataSourceConfig.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpGroupBarTitleBarConfig.#ctor">
+            <summary>
+            Initializes a new instance of the FpGroupBarTitleBarConfig class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpGroupBarTitleBarConfig.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpHeaderFooterConfig.#ctor">
+            <summary>
+            Initializes a new instance of the FpHeaderFooterConfig class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpHeaderFooterConfig.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpOperationModeConfig.#ctor">
+            <summary>
+            Initializes a new instance of the FpOperationModeConfig class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpOperationModeConfig.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpSkinConfig.#ctor">
+            <summary>
+            Initializes a new instance of the FpSkinConfig class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpSkinConfig.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpTabStripScrollBarConfig.#ctor">
+            <summary>
+            Initializes a new instance of the FpTabStripScrollBar class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpTabStripScrollBarConfig.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.FpTabStripScrollBarConfig.Label_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paints a highlighted line from the end of a Label control Text to the Width of the control to make
+            the Label look more like a separator.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.StepBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StepBase.Active(FarPoint.Win.Spread.Design.IWizardController)">
+            <summary>
+            Activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StepBase.Inactive">
+            <summary>
+            Inactivate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StepBase.OnActive">
+            <summary>
+            Called when activate the user control.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Win.Spread.Design.StepBase.OnInactive">
+            <summary>
+            Called when inactivate the user control.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Win.Spread.Design.DesignerUIManager">
+            <summary>
+            The Designer UIManager.
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.DesignerUIManager.NamedStyleChanged">
+            <summary>
+            Occurs when the named style is changed.
+            </summary>
+        </member>
+        <member name="E:FarPoint.Win.Spread.Design.DesignerUIManager.TabStripChanged">
+            <summary>
+            Occurs when the tab strip is changed.
+            </summary>
+        </member>
+    </members>
+</doc>

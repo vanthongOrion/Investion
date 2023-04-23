@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>GrapeCity.Spreadsheet.DataVisualization</name>
+  </assembly>
+  <members>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.AreaSparklineSettingForm">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.AreaSparklineSettingForm" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.AreaSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.AreaSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.AreaSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread,GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.AreaSparklineFunction)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.AreaSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+      <param name="function"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.AreaSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.BoxPlotSparklineSettingForm">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.BoxPlotSparklineSettingForm" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.BoxPlotSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.BoxPlotSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.BoxPlotSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread,GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.BoxPlotSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+      <param name="function"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.BoxPlotSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.BulletSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.CascadeSparklineSettingForm">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.CascadeSparklineSettingForm" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.CascadeSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.CascadeSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.CascadeSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread,GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.CascadeSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+      <param name="function"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.CascadeSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.CompatibleSparklineSettingForm">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.CompatibleSparklineSettingForm" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.CompatibleSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.CompatibleSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.CompatibleSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.GaugeKPISparklineLabelSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.GaugeKPISparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.GaugeKPISparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.GaugeKPISparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.GaugeKPISparklineStyleSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.HistogramSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.HVbarSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.ImageSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.MonthYearSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.ParetoSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.PieSparklineSettingForm">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.PieSparklineSettingForm" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.PieSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.PieSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.PieSparklineSettingForm.#ctor(FarPoint.Win.Spread.FpSpread,GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.PieSparklineFunction)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.PieSparklineSettingForm" /> class.
+            </summary>
+      <param name="spread"></param>
+      <param name="function"></param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.PieSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.ScatterSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.SpreadSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.StackedSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VariSparklineSettingForm.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.AreaSparklineFunction">
+      <summary>
+            Represents the AREASPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.AreaSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.AreaSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.AreaSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction">
+      <summary>
+            Represents the HBARSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction.IsExplicitPrecedent(System.Int32)">
+      <summary>
+            Determines whether the evaluated result depends on all values from the argument.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the argument.</param>
+      <returns>
+        <c>true</c> if the evaluated result depends on all values from the argument; otherwise, <c>false</c>.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction.StartEvaluatingFormulaArray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Starts evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction.FinishEvaluatingFormularray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Finishs evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HBarSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VBarSparklineFunction">
+      <summary>
+            Represents the VBARSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VBarSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VBarSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction">
+      <summary>
+            Represents the BOXPLOTSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction.StartEvaluatingFormulaArray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Starts evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction.FinishEvaluatingFormularray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Finishs evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction">
+      <summary>
+            Represents the BULLETSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction.CalculateFormulaArrayDimensions(GrapeCity.CalcEngine.IArguments,System.Int32@,System.Int32@)">
+      <summary>
+            Update the dimensions of target dynamic evaluated array.
+            </summary>
+      <param name="arguments">The arguments of the function.</param>
+      <param name="rowCount">The row count of the returned array.</param>
+      <param name="columnCount">The column count of the returned array.</param>
+      <returns>
+        <c>true</c> if the dimensions are determined by this function; otherwise, <c>false</c>.
+            </returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction.StartEvaluatingFormulaArray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Starts evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction.FinishEvaluatingFormularray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Finishs evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BulletSparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> if all cells of the parameter will are required to calculate the formula cell; otherwise, <c>false</c>.
+            </returns>
+      <remarks>
+            If the function use one cell to calculate, return <c>false</c> may improve the calculation performance.
+            </remarks>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction">
+      <summary>
+            Represents the CASCADESPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.CalculateFormulaArrayDimensions(GrapeCity.CalcEngine.IArguments,System.Int32@,System.Int32@)">
+      <summary>
+            Update the dimensions of target dynamic evaluated array.
+            </summary>
+      <param name="arguments">The arguments of the function.</param>
+      <param name="rowCount">The row count of the returned array.</param>
+      <param name="columnCount">The column count of the returned array.</param>
+      <returns>
+        <c>true</c> if the dimensions are determined by this function; otherwise, <c>false</c>.
+            </returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.StartEvaluatingFormulaArray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Starts evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.FinishEvaluatingFormularray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Finishs evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> if all cells of the parameter will are required to calculate the formula cell; otherwise, <c>false</c>.
+            </returns>
+      <remarks>
+            If the function use one cell to calculate, return <c>false</c> may improve the calculation performance.
+            </remarks>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.IsExplicitPrecedent(System.Int32)">
+      <summary>
+            Determines whether the evaluated result depends on all values from the argument.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the argument.</param>
+      <returns>
+        <c>true</c> if the evaluated result depends on all values from the argument; otherwise, <c>false</c>.</returns>
+    </member>
+    <!-- Badly formed XML comment ignored for member "M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CascadeSparklineFunction.CellData.#ctor(System.Boolean,System.Double,System.Double,System.Double,System.Double,System.Boolean,System.String,GrapeCity.Drawing.Brush)" -->
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CompatibleSparklineFunction">
+      <summary>
+            Represents a compatible sparkline function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CompatibleSparklineFunction.IsArrayParameter(GrapeCity.CalcEngine.IEvaluationContext,GrapeCity.CalcEngine.Expression,GrapeCity.CalcEngine.IValue,System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the argument.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CompatibleSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.CompatibleSparklineFunction.GetVisibilityDependent(System.Int32,System.Int32)">
+      <summary>
+            Determines whether the visibility change affects to the calculation.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the argument.</param>
+      <param name="argumentCount">An integer value indicates the total number of arguments.</param>
+      <returns>A <see cref="!:VisibilityDependent" /> value represents how the visibility change affects to the calculation.</returns>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.LineSparklineFunction">
+      <summary>
+            Represents the LINESPARKLINE function.
+            </summary>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ColumnSparklineFunction">
+      <summary>
+            Represents the COLUMNSPARKLINE function.
+            </summary>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.WinLossSparklineFunction">
+      <summary>
+            Represents the WINLOSSSPARKLINE function.
+            </summary>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.GaugeKPISparklineFunction">
+      <summary>
+            Represents the GAUGEKPISPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.GaugeKPISparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.GaugeKPISparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.GaugeKPISparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.
+            </returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.GaugeKPISparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HistogramSparklineFunction">
+      <summary>
+            Represents the HISTOGRAMSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HistogramSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HistogramSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.HistogramSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ImageFunction">
+      <summary>
+            Represents the AREASPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ImageFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.AreaSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ImageFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.MonthSparklineFunction">
+      <summary>
+            Represents the MONTHSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.MonthSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.MonthSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.MonthSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.MonthSparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.YearSparklineFunction">
+      <summary>
+            Represents the YEARSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.YearSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.YearSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.YearSparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ParetoSparklineFunction">
+      <summary>
+            Represents the PARETOSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ParetoSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ParetoSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ParetoSparklineFunction.CalculateFormulaArrayDimensions(GrapeCity.CalcEngine.IArguments,System.Int32@,System.Int32@)">
+      <summary>
+            Update the dimensions of target dynamic evaluated array.
+            </summary>
+      <param name="arguments">The arguments of the function.</param>
+      <param name="rowCount">The row count of the returned array.</param>
+      <param name="columnCount">The column count of the returned array.</param>
+      <returns>
+        <c>true</c> if the dimensions are determined by this function; otherwise, <c>false</c>.
+            </returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ParetoSparklineFunction.StartEvaluatingFormulaArray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Starts evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.PieSparklineFunction">
+      <summary>
+            Represents the PIESPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.PieSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.PieSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.PieSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ScatterSparklineFunction">
+      <summary>
+            Represents the SCATTERSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ScatterSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ScatterSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ScatterSparklineFunction.IsArrayParameter(GrapeCity.CalcEngine.IEvaluationContext,GrapeCity.CalcEngine.Expression,GrapeCity.CalcEngine.IValue,System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the argument.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.ScatterSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction">
+      <summary>
+            Represents a data visualization function that visualize cell value as sparkline.
+            </summary>
+    </member>
+    <member name="P:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.Overloads">
+      <summary>
+            Gets the total number of function overloads.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.#ctor(System.String,System.Int32,System.Int32,GrapeCity.CalcEngine.FunctionAttributes,GrapeCity.CalcEngine.IFunctionVisualizer,System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.CalcEngine.VisualFunction" /> class.
+            </summary>
+      <param name="visualizerName">A string value represents the visualizer name.</param>
+      <param name="minArgs">An integer values indicates the minimum argument count.</param>
+      <param name="maxArgs">An integer values indicates the maximum argument count.</param>
+      <param name="attributes">A <see cref="T:GrapeCity.CalcEngine.FunctionAttributes" /> value indicates attributes of the function.</param>
+      <param name="visualizer">The function visualizer to visualize cell value.</param>
+      <param name="appendPrefix">A boolean value indicates whether to append the prefix "VF." before the function. <c>true</c> if the visual function is used in the formula as "VS.[visualizer name]".</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetArgumentCount(System.Int32,System.Int32,System.Boolean@)">
+      <summary>
+            Gets the total number of parameters that display in the intelli-sense tooltip.
+            </summary>
+      <param name="argsCount">The total number of current passed arguments.</param>
+      <param name="overload">The order of function overload.</param>
+      <param name="limited">
+        <c>true</c> if the parameter count is maximum; otherwise, more parameter can be passed.</param>
+      <returns>The total number of parameters that display in the intelli-sense tooltip.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetGroupedArguments(System.Int32,System.Int32@,System.Int32@)">
+      <summary>
+            Gets the lower index and upper index of the argument group that contains the specified argument.
+            </summary>
+      <param name="index">The index of the argument.</param>
+      <param name="lowerIndex">The lower index of the argument group.</param>
+      <param name="upperIndex">The upper index of the argument group.</param>
+      <returns>
+        <c>true</c> if the argument belong to an argument group; otherwise, <c>false</c>.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetDescription(GrapeCity.Spreadsheet.Localization.LanguagePackage)">
+      <summary>
+            Gets description of the function in the specified language package.
+            </summary>
+      <param name="languagePackage">The language package.</param>
+      <returns>A string value represents description of the function.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetDescription2(GrapeCity.Spreadsheet.Localization.LanguagePackage)">
+      <summary>
+            Gets the function description which is displayed from Function Arguments dialog.
+            </summary>
+      <param name="builtinFunction">The function to display.</param>
+      <returns>A string value represents the function's description.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetArgumentName(GrapeCity.Spreadsheet.Localization.LanguagePackage,System.Int32,System.Int32,System.Int32)">
+      <summary>
+            Gets name of the parameter in the specified language package.
+            </summary>
+      <param name="languagePackage">The language package.</param>
+      <param name="index">An integer value indicates position of the argument.</param>
+      <param name="argsCount">The total number of current passed arguments.</param>
+      <param name="overload">The order of function overload.</param>
+      <returns>A string value represents name of the argument.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetArgumentType(GrapeCity.CalcEngine.Function,System.Int32,System.Int32,System.Int32)">
+      <summary>
+            Gets the parameter name of the specified function.
+            </summary>
+      <param name="function">The function to extract parameter name.</param>
+      <param name="index">An integer value indicates the parameter's position.</param>
+      <param name="argCount">The total number of current passed arguments.</param>
+      <param name="overload">An integer value indicates the order of function overload.</param>
+      <returns>A string value represents the parameter name.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetArgumentOptions(GrapeCity.Spreadsheet.Localization.LanguagePackage,System.Int32)">
+      <summary>
+            Gets an array of option values for the specified parameter.
+            </summary>
+      <param name="languagePackage">The language package.</param>
+      <param name="index">An integer value indicates position of the argument.</param>
+      <returns>An array of parameter's option values; <c>null</c> if there is no option value.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.GetArgumentDescription(GrapeCity.Spreadsheet.Localization.LanguagePackage,System.Int32)">
+      <summary>
+            Gets the description of function's argument which is displayed from Function Arguments dialog.
+            </summary>
+      <param name="languagePackage">The language package.</param>
+      <param name="index">The order of argument.</param>
+      <returns>A string value represents the description of function's argument.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SparklineFunction.IsArrayParameter(GrapeCity.CalcEngine.IEvaluationContext,GrapeCity.CalcEngine.Expression,GrapeCity.CalcEngine.IValue,System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the argument.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SpreadSparklineFunction">
+      <summary>
+            Represents the SPREADSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SpreadSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.BoxPlotlineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SpreadSparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> the function evaluates the specified parameter as an array; otherwise, the function evaluates each cells of the range separately.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SpreadSparklineFunction.StartEvaluatingFormulaArray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Starts evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SpreadSparklineFunction.FinishEvaluatingFormularray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Finishs evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.SpreadSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.StackedSparklineFunction">
+      <summary>
+            Represents the STACKEDSPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.StackedSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.StackedSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.StackedSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+    <member name="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction">
+      <summary>
+            Represents the VARISPARKLINE function.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction" /> class.
+            </summary>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction.IsArrayParameter(System.Int32)">
+      <summary>
+            Determines whether the expression at specified index is evaluated as an array parameter.
+            </summary>
+      <param name="expressionIndex">An integer value indicates the index of the expression.</param>
+      <returns>
+        <c>true</c> if all cells of the parameter will are required to calculate the formula cell; otherwise, <c>false</c>.
+            </returns>
+      <remarks>
+            If the function use one cell to calculate, return <c>false</c> may improve the calculation performance.
+            </remarks>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction.IsExplicitPrecedent(System.Int32)">
+      <summary>
+            Determines whether the evaluated result depends on all values from the argument.
+            </summary>
+      <param name="argIndex">An integer value indicates the index of the argument.</param>
+      <returns>
+        <c>true</c> if the evaluated result depends on all values from the argument; otherwise, <c>false</c>.</returns>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction.StartEvaluatingFormulaArray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Starts evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction.FinishEvaluatingFormularray(GrapeCity.CalcEngine.IArguments)">
+      <summary>
+            Finishs evaluating multiple cells as formula array.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.Arguments" /> object indicates set of arguments.</param>
+    </member>
+    <member name="M:GrapeCity.Spreadsheet.DataVisualization.VisualFunctions.VariSparklineFunction.EvaluateCellValue(GrapeCity.CalcEngine.IArguments,GrapeCity.CalcEngine.IValue)">
+      <summary>
+            Evaluates the cell value.
+            </summary>
+      <param name="arguments">The <see cref="T:GrapeCity.CalcEngine.IArguments" /> object indicates set of arguments.</param>
+      <param name="result">The <see cref="T:GrapeCity.CalcEngine.IValue" /> object to set result value.</param>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,31 @@
+﻿<FileList>
+  <File Reference="FarPoint.Win.Spread.dll">
+    <ToolboxItems VSCategory="GrapeCity Spread for Windows Forms" BlendCategory="GrapeCity Spread for Windows Forms">
+      <Item Type="FarPoint.Win.Spread.FpSpread" />
+	  <Item Type="FarPoint.Win.Spread.FormulaTextBox" />
+	  <Item Type="FarPoint.Win.Spread.NameBox" />
+    </ToolboxItems>
+  </File>
+  <File Reference="FarPoint.Win.Spread.Design.dll">
+    <ToolboxItems VSCategory="GrapeCity Spread Design for Windows Forms" BlendCategory="GrapeCity Spread Design for Windows Forms">
+      <Item Type="FarPoint.Win.Spread.Design.FpSpreadDesigner" />
+    </ToolboxItems>
+  </File>
+   <File Reference="FarPoint.Win.Chart.dll">
+    <ToolboxItems VSCategory="GrapeCity Spread Chart" BlendCategory="GrapeCity Spread Chart">
+      <Item Type="FarPoint.Win.Chart.FpChart" />
+    </ToolboxItems>
+  </File>
+  <File Reference="FarPoint.Win.Chart.Design.dll">
+    <ToolboxItems VSCategory="GrapeCity Spread" BlendCategory="GrapeCity Spread">
+    </ToolboxItems>
+  </File>
+  <File Reference="GrapeCity.Win.PluginInputMan.dll">
+    <ToolboxItems VSCategory="GrapeCity Spread" BlendCategory="GrapeCity Spread">      
+    </ToolboxItems>
+  </File>
+  <File Reference="GrapeCity.Win.PluginInputMan.Design.dll">
+    <ToolboxItems VSCategory="GrapeCity Spread" BlendCategory="GrapeCity Spread">      
+    </ToolboxItems>
+  </File>
+</FileList>
